@@ -1,0 +1,11 @@
+# このファイルをpyproject.tomlに変更してuv syncでインストール。uv run clean-safetensors.py <filepath>...で実行
+[project]
+name = "clean-safetensors"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy==2.4.4",
+    "packaging==26.0",
+    "safetensors==0.7.0",
+    "torch==2.11.0",
+]

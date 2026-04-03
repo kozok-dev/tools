@@ -240,7 +240,7 @@ def cmp_image(org_image, change_image):
 		raise Exception("元画像と差異があります")
 
 register(
-	"clean_transparent",
+	"clean-transparent",
 	"色が残っている透明ピクセルを黒の透明に変換します\n※ディレクトリ指定の場合はPNG,XCFが対象となり、画像ファイルが変更されるので予めバックアップを推奨します",
 	"",
 	"kozok",
